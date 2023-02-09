@@ -48,7 +48,7 @@ This simulator is designed in MATLAB using QLib [16], which is a MATLAB package 
 ```
 2. MAB_UCB_QNetwork_Routing.m: Contains function 'UCB' that calls 'Environment_QCNetwork.m' for intercation of MAB agent with the quantum environment unknown to it.
 
-3. Environment_QCNetwork.m: Computes fiber-related losses using 'FiberLoss.m' function, probability of decoherence in memory and errors during BSM and gate operations using 'EntanglementSwap_NoiseProbabilities.m' function.
+3. Environment_QCNetwork.m: Computes fiber-related losses using 'FiberLoss.m' file, probability of decoherence in memory and errors during BSM and gate operations using 'EntanglementSwap_NoiseProbabilities.m' file.
 
 4. EntanglementSwap_NoiseProbabilities.m: Computes time each qubit spends in memories at different nodes before BSM and gate operations. These time values are used in calculation of probability of decoherence noise and errors.
 
@@ -66,10 +66,11 @@ of different events.
 
 ## Prerequisites and dependencies
 QLib - http://www.tau.ac.il/~quantum/qlib/qlib.html
+
 MATLAB R2021b
 
 ## Getting Started
-Simply clone the repository, open MATLAB (version 2021b), add QLib to your path (with subfolders) and run the QNetworkGraph_LearningAlgo.m file.
+Simply clone the repository, open MATLAB (version 2021b), add QLib to your path (with subfolders), and run the 'QNetworkGraph_LearningAlgo.m' file.
 
 ## Citation
 This simulator is a part of work 'Learning-based Route Selection in Noisy Quantum Communication Networks'. Please feel free to cite it as:
