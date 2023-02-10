@@ -56,7 +56,7 @@ This simulator is designed in MATLAB using QLib [16], which is a MATLAB package 
 
 6. Other files are called in the above files and have relevant comments of what they does in them.
 
-Note: All files have comments to give context of what is being done in the code.```
+Note: All files have comments to give context of what is being done in the code.
 
 ## Features
 - The simulator (i) tracks time a qubit spends in memory, fiber, and gate operations during different steps (explained above) of entanglement swapping, (ii) calculates probability of occurrence of different noises, and (iii) generate them with these computed probabilities in every iteration. Thus, there is no need to create time events for each nodes, memories, and errors in different gate operation explicitly, which requires prior knowledge of when the dephasing and other noises will occur in different qubits at different nodes in a large-scale network. Hence, this simulator provides ease of use without requiring in-depth and accurate knowledge of timings
