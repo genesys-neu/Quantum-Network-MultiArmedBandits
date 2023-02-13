@@ -29,7 +29,7 @@ This simulator is designed in MATLAB using QLib [16], which is a MATLAB package 
 1. QNetworkGraph_LearningAlgo.m <b>(main file)</b>: Creates a quantum network graph with the following configurable parameters. After network creation, it calls function 'MAB_UCB_QNetwork_Routing.m' for running UCB-MAB algorithm for the least noisy route selection. 
 ```{eval=FALSE}
   - No_of_nodes = 15;                           % No. of nodes in the quantum network
-  - x_min = -10; x_max = 10;                    % Define area spanned by network (20 X 20 Km<sup>2</sup> for set values). Nodes locations are set based on this area.
+  - x_min = -10; x_max = 10;                    Define area spanned by network (20 X 20 Km<sup>2</sup> for set values). Nodes locations are set based on this area.
   - Link_distance_Threshold = 10;               % A link is considered b/w any two nodes if the distance b/w the nodes is <= 'Link_distance_Threshold' Km
   - sources = 2;                                % Transmitter node
   - destination = 15;                           % Receiver node
